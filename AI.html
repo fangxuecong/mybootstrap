@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>bootstrap101</title>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+<meta name="apple-mobile-web-app-cap" content="yes"  />
+<meta name="format-detection" content="telephone=no" />
+<meta name="author" content="Thilina Fong" />
+<meta name="description" content="" />
+<link rel="stylesheet" href="http://172.16.16.157/mysrc/bootstrapdist/css/bootstrap.min.css" />
+<!--[if lt IE 9]>
+<script src="http://172.16.16.157/mysrc/html5shiv.min.js"></script>
+<script src="http://172.16.16.157/mysrc/respond.min.js"></script>
+<![endif]-->
+<style type="text/css">
+#container{
+	padding-bottom: 90px;
+}
+.tips{
+	border-bottom:30px solid #0492F2;
+	background: #282828;
+	color:white;
+	padding-bottom: 50px;
+}
+.tips li{
+	margin-top:20px;
+}
+</style>
+</head>
+<body style="padding-top:70px;min-height:2000px;">
+<!-- 一切盡在#container中 -->
+<div id="container">
+  <!-- Fixed navbar[nav] =========================================================================start============================= -->
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation"> 
+   <div class="container"> 
+    <div class="navbar-header"> 
+     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> 
+     <a class="navbar-brand" href="#">AI</a> 
+    </div> 
+    <div id="navbar" class="navbar-collapse collapse">
+     <ul class="nav navbar-nav"> 
+      <li class="active"><a href="#">Home</a></li> 
+      <li><a href="#about">About</a></li> 
+      <li><a href="#contact">Contact</a></li> 
+      <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a> 
+       <ul class="dropdown-menu" role="menu"> 
+        <li><a href="#">Action</a></li> 
+        <li><a href="#">Another action</a></li> 
+        <li><a href="#">Something else here</a></li> 
+        <li class="divider"></li> 
+        <li class="dropdown-header">Nav header</li> 
+        <li><a href="#">Separated link</a></li> 
+        <li><a href="#">One more separated link</a></li> 
+       </ul> </li> 
+     </ul> 
+     <ul class="nav navbar-nav navbar-right"> 
+      <li><a href="../navbar/">Default</a></li> 
+      <li><a href="../navbar-static-top/">Static top</a></li> 
+      <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li> 
+     </ul> 
+    </div> <!--/.nav-collapse --> 
+   </div> 
+  </nav>
+
+  <!-- myContent[content] =========================================================================start============================= -->
+  <div id="content" class="container">
+	<table class="table">
+		<tbody>
+			<tr>
+				<td>移動工具</td>
+				<td>v</td>
+			</tr>
+			<tr>
+				<td>選取工具</td>
+				<td>a</td>
+			</tr>
+			<tr>
+				<td>添加錨點工具</td>
+				<td>+</td>
+			</tr>
+			<tr>
+				<td>矩形(圓角矩形)工具</td>
+				<td>m</td>
+			</tr>
+			<tr>
+				<td>視圖平移工具</td>
+				<td>h</td>
+			</tr>
+
+			<tr>
+				<td>刪除錨點工具</td>
+				<td>-</td>
+			</tr>
+			<tr>
+				<td>鋼筆工具</td>
+				<td>p</td>
+			</tr>
+			<tr>
+				<td>橢圓工具</td>
+				<td>l</td>
+			</tr>
+			<tr>
+				<td>旋轉工具</td>
+				<td>r</td>
+			</tr>
+			<tr>
+				<td>畫筆工具</td>
+				<td>b</td>
+			</tr>
+
+			<tr>
+				<td>自由變形工具</td>
+				<td>e</td>
+			</tr>
+			<tr>
+				<td>鏡像工具</td>
+				<td>o</td>
+			</tr>
+			<tr>
+				<td>圖表工具</td>
+				<td>j</td>
+			</tr>
+			<tr>
+				<td>縮放拉伸工具</td>
+				<td>s</td>
+			</tr>
+			<tr>
+				<td>漸變網點工具</td>
+				<td>u</td>
+			</tr>
+
+			<tr>
+				<td>剪刀,裁刀工具</td>
+				<td>c</td>
+			</tr>
+			<tr>
+				<td>混合工具</td>
+				<td>w</td>
+			</tr>
+			<tr>
+				<td>屏幕切換</td>
+				<td>f</td>
+			</tr>
+			<tr>
+				<td>漸變工具</td>
+				<td>g</td>
+			</tr>
+			<tr>
+				<td>轉換錨點工具</td>
+				<td>Shift+c</td>
+			</tr>
+
+			<tr>
+				<td>直線</td>
+				<td>\</td>
+			</tr>
+			<tr>
+				<td>圖層順序</td>
+				<td>Ctrl(+Shift)+[]</td>
+			</tr>
+			<tr>
+				<td>群組</td>
+				<td>Ctrl(+Shift)+g</td>
+			</tr>
+			<tr>
+				<td>連接斷開的路徑</td>
+				<td>Ctrl+j</td>
+			</tr>
+			<tr>
+				<td>隱藏物體</td>
+				<td>Ctrl+3</td>
+			</tr>
+
+			<tr>
+				<td>隱藏未被選擇的物體</td>
+				<td>Ctrl+Shift+Alt+3</td>
+			</tr>
+			<tr>
+				<td>顯示所有物體</td>
+				<td>Ctrl+Alt+3</td>
+			</tr>
+			<tr>
+				<td>鎖定物體</td>
+				<td>Ctrl+2</td>
+			</tr>
+			<tr>
+				<td>解鎖所有物體</td>
+				<td>Ctrl+Alt+2</td>
+			</tr>
+			<tr>
+				<td>顯示,隱藏標尺</td>
+				<td>Ctrl+r</td>
+			</tr>
+
+			<tr>
+				<td>頁面顯示01</td>
+				<td>Ctrl+[0,1]</td>
+			</tr>
+			<tr>
+				<td>顯示,隱藏參考線</td>
+				<td>Ctrl+;</td>
+			</tr>
+			<tr>
+				<td>線框模式</td>
+				<td>Ctrl+y</td>
+			</tr>
+			<tr>
+				<td>顯示,隱藏邊界線</td>
+				<td>Ctrl+Shift+B</td>
+			</tr>
+			<tr>
+				<td>分別變換</td>
+				<td>Ctrl+Shift+Alt+D</td>
+			</tr>
+
+			<tr>
+				<td>窗口面板快捷鍵,沒有用到Alt建</td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td>信息</td>
+				<td>Ctrl+F8</td>
+			</tr>
+			<tr>
+				<td>變換</td>
+				<td>Shift+F8</td>
+			</tr>
+			<tr>
+				<td>圖層</td>
+				<td>F7</td>
+			</tr>
+			<tr>
+				<td>外觀</td>
+				<td>Shift+F6</td>
+			</tr>
+			<tr>
+				<td>對齊</td>
+				<td>Shift+F7</td>
+			</tr>
+
+			<tr>
+				<td>描邊</td>
+				<td>Ctrl+F10</td>
+			</tr>
+			<tr>
+				<td>字符</td>
+				<td>Ctrl+T</td>
+			</tr>
+			<tr>
+				<td>漸變</td>
+				<td>Ctrl+F9</td>
+			</tr>
+			<tr>
+				<td>畫筆</td>
+				<td>F5</td>
+			</tr>
+			<tr>
+				<td>Ctrl+Shift+F11</td>
+				<td>千祈無用</td>
+			</tr>
+
+			<tr>
+				<td>路徑查找器</td>
+				<td>Ctrl+Shift+F9</td>
+			</tr>
+			<tr>
+				<td>透明度</td>
+				<td>Ctrl+Shift+F10</td>
+			</tr>
+			<tr>
+				<td>顏色</td>
+				<td>F6</td>
+			</tr>
+			<tr>
+				<td>顏色參考</td>
+				<td>Shift+F3</td>
+			</tr>
+			
+		</tbody>
+	</table>
+	<div class="container tips">
+		<h3>使用技巧</h3>
+		<ol>
+			<li>拖出参考线时，按住鼠标按下ALT键可以在水平或垂直参考线之间切换。</li>
+			<li>对象(Alt+O)→路径→添加锚点，即可在所选定路径每对现有锚点之间的中间位置添加一个新的锚点，因此使用该命令处理过的路径上的锚点数量将加倍。所添加锚点的类型取决于选定路径的类型，如果选定路径是平滑线段，则添加的锚点为平滑点；如果选定的路径是直线段，则添加的锚点为直角点。------>仲有仲有,輪廓化描邊也很重要哦.</li>
+			<li>使用旋转工具时，默认情况下，图形的中心点作为旋转中心点。按住ALT键在画板上单击设定旋转中心点，并弹出旋转工具对话框。在使用旋转、反射、比例、倾斜和改变形状等工具时，都可以按下ALT键单击来设置基点，并且在将对象转换到目标位置时，都可以按下ALT键进行复制对象。</li>
+			<li>自由变换工具：可对图形、图像进行倾斜、缩放以及旋转等变形处理，先按住范围框上的节点不松，再按CTRL键进行任意变形操作，再加上ALT键可进行倾斜操作。</li>
+		</ol>
+	</div>
+
+
+  </div>
+
+
+
+
+
+</div> <!-- [endidcontainer] -->
+<script src="http://172.16.16.157/mysrc/jquery-1.11.1.min.js"></script>
+<script src="http://172.16.16.157/mysrc/bootstrapdist/js/bootstrap.min.js"></script>
+<script src="http://172.16.16.157/mysrc/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
